@@ -1,59 +1,99 @@
-<!-- GitHub profile README: @NSSYS -->
+<!-- NSSYS · Offensive Security Research -->
 <div align="center">
 
-# Ali Saifeldin · NSSYS
+<a href="https://github.com/NSSYS">
+  <img src="./assets/nssys-terminal.svg" width="100%" alt="NSSYS — Ali Saifeldin | Offensive Security and Vulnerability Research" />
+</a>
 
-### Security Researcher | Offensive Security | Vulnerability Discovery
+<br/>
 
-*Finding root causes, breaking security assumptions, and improving open-source security through responsible disclosure.*
+### `Security Researcher` · `Offensive Security` · `Exploit Development`
 
-[![CVE Portfolio](https://img.shields.io/badge/Published%20CVEs-16-276749?style=for-the-badge)](CVEs.md)
-[![Frappe / ERPNext](https://img.shields.io/badge/Frappe%20%2F%20ERPNext-13%20CVEs-126B91?style=for-the-badge)](CVEs.md#frappe-framework-and-erpnext)
-[![Additional GHSAs](https://img.shields.io/badge/Other%20GHSAs-2-6F42C1?style=for-the-badge)](CVEs.md#additional-published-github-advisories)
+**Breaking assumptions. Finding root causes. Securing what matters.**
 
-[GitHub](https://github.com/NSSYS) · [HackerOne](https://hackerone.com/nssys) · [Research articles](https://medium.com/@alisaifeldin)
+[![CVE Portfolio](https://img.shields.io/badge/CVEs-16-9EFF7A?style=flat-square&labelColor=09131A)](CVEs.md)
+[![Frappe and ERPNext](https://img.shields.io/badge/Frappe%20%2F%20ERPNext-13-2CDDD1?style=flat-square&labelColor=09131A)](CVEs.md#frappe-framework-and-erpnext)
+[![OSCP](https://img.shields.io/badge/OSCP-Certified-9EFF7A?style=flat-square&labelColor=09131A)](https://www.offsec.com/)
+[![OSWE](https://img.shields.io/badge/OSWE-Certified-9EFF7A?style=flat-square&labelColor=09131A)](https://www.offsec.com/)
+[![OSEP](https://img.shields.io/badge/OSEP-Certified-9EFF7A?style=flat-square&labelColor=09131A)](https://www.offsec.com/)
+
+[![HackerOne](https://img.shields.io/badge/HackerOne-Researcher-6f42c1?style=flat-square&labelColor=09131A&logo=hackerone&logoColor=white)](https://hackerone.com/nssys)
+[![Medium](https://img.shields.io/badge/Research-Writeups-ffffff?style=flat-square&labelColor=09131A&logo=medium&logoColor=white)](https://medium.com/@alisaifeldin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-56B5F5?style=flat-square&labelColor=09131A&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alisaifeldin/)
 
 </div>
 
 ---
 
-## About me
+### `root@NSSYS:~# cat /etc/researcher.conf`
 
-I'm a security researcher and offensive security professional specializing in vulnerability discovery, source-code review, web and API security, and responsible disclosure. I investigate authentication and authorization boundaries, privilege escalation, credential exposure, and flaws in software security models.
+```ini
+[identity]
+name          = Ali Saifeldin
+handle        = NSSYS
+focus         = Vulnerability Research, Offensive Security
+methodology   = Source Code -> Root Cause -> Exploitability -> Responsible Disclosure
 
-- **Research:** Vulnerability discovery · IDOR · Broken access control · Privilege escalation · Security boundary violations
-- **Offensive security:** Web/API penetration testing · Active Directory · Red-team operations · Source-code auditing
-- **Blue team:** Threat hunting · Malware analysis · Incident response · Digital forensics
-- **Certifications:** **OSCP · OSWE · OSEP**
+[specialties]
+application   = Web & API Security, Authentication, Authorization, IDOR
+systems       = Windows Security, Local Privilege Escalation
+infrastructure= Active Directory, Internal & External Penetration Testing
+research      = Source-Code Auditing, Security Boundary Analysis, Exploit Development
+defense       = Malware Analysis, Threat Hunting, Digital Forensics
+```
 
-## Published security research
+I research vulnerabilities in real-world software, focusing on **broken trust boundaries**, **authorization flaws**, **privilege escalation**, and **sensitive-data exposure**. I combine manual code review and practical security testing with coordinated vulnerability disclosure.
 
-| Published CVEs | Frappe / ERPNext | Other projects | Additional public GHSAs |
-|:---:|:---:|:---:|:---:|
-| **16** | **13** | **3** | **2** |
+### `./research --published`
 
-### Featured findings
+<div align="center">
 
-| CVE | Project | Research focus |
-|---|---|---|
-| [CVE-2026-116596](https://www.cve.org/CVERecord?id=CVE-2026-116596) | Pyrus Sync for Windows | Local privilege escalation through a LocalSystem WCF service. [Read the research](https://medium.com/@alisaifeldin/cve-2026-116596-local-privilege-escalation-in-pyrus-sync-for-windows-0fe2417dc8cf) |
-| [CVE-2026-48615](https://www.cve.org/CVERecord?id=CVE-2026-48615) | Node.js | Proxy credential exposure in HTTP tunnel error handling |
-| [CVE-2026-50026](https://www.cve.org/CVERecord?id=CVE-2026-50026) | Frappe Framework | Missing authorization in communication and email operations |
-| [CVE-2026-109669](https://www.cve.org/CVERecord?id=CVE-2026-109669) | ERPNext | Missing permission checks in issue status operations |
-| [CVE-2026-45306](https://www.cve.org/CVERecord?id=CVE-2026-45306) | pyLoad | Incomplete path restrictions and sensitive-file disclosure |
+| **16** published CVEs | **13** Frappe / ERPNext CVEs | **3** other-project CVEs |
+|:---:|:---:|:---:|
+| [Complete CVE index](CVEs.md) | [Framework & ERP findings](CVEs.md#frappe-framework-and-erpnext) | [Node.js · Pyrus · pyLoad](CVEs.md#other-published-cves) |
 
-### [Browse the complete CVE and security advisory portfolio →](CVEs.md)
+</div>
 
-## Technical focus
+**Selected disclosures**
 
-`Vulnerability Research` · `Web / API Security` · `Source Code Review` · `Active Directory` · `Privilege Escalation` · `Penetration Testing` · `Red Team` · `Digital Forensics` · `Malware Analysis` · `SOC / Threat Hunting`
+| Research | Vulnerability class | Public reference |
+|:---|:---|:---|
+| **Pyrus Sync for Windows** | Local privilege escalation through a LocalSystem service | [CVE-2026-116596](https://www.cve.org/CVERecord?id=CVE-2026-116596) · [Write-up](https://medium.com/@alisaifeldin/cve-2026-116596-local-privilege-escalation-in-pyrus-sync-for-windows-0fe2417dc8cf) |
+| **Node.js** | Proxy credential disclosure in tunnel error handling | [CVE-2026-48615](https://www.cve.org/CVERecord?id=CVE-2026-48615) |
+| **Frappe Framework** | Broken authorization in email operations | [CVE-2026-50026](https://www.cve.org/CVERecord?id=CVE-2026-50026) |
+| **ERPNext** | Unauthorized issue status modification | [CVE-2026-109669](https://www.cve.org/CVERecord?id=CVE-2026-109669) |
+| **pyLoad** | Insufficient path restrictions | [CVE-2026-45306](https://www.cve.org/CVERecord?id=CVE-2026-45306) |
 
-## Research & responsible disclosure
+<div align="center">
 
-My public portfolio documents vulnerability reports and coordinated disclosures with public CVE records, GitHub Security Advisories, and vendor resources. Some advisories consolidate multiple reports or involve multiple researchers; inclusion is not a claim of exclusive discovery. Unpublished reports and cases with unresolved attribution are **not** counted as additional CVEs.
+### [`>> EXPLORE ALL 16 CVEs & SECURITY ADVISORIES <<`](CVEs.md)
+
+</div>
+
+### `./toolkit --focus`
+
+```text
+RESEARCH    Code audit · Vulnerability analysis · AuthN/AuthZ · Privilege escalation
+OFFENSIVE   Web & API pentesting · Active Directory · Red team · Exploit development
+DEFENSIVE   Threat hunting · Malware analysis · SIEM/EDR · Incident response
+```
+
+**Professional certifications:** `OSCP` · `OSWE` · `OSEP`
+
+### `./writeups --latest`
+
+**[CVE-2026-116596 — Local Privilege Escalation in Pyrus Sync for Windows](https://medium.com/@alisaifeldin/cve-2026-116596-local-privilege-escalation-in-pyrus-sync-for-windows-0fe2417dc8cf)**
+
+An investigation into a Windows service security boundary and a local privilege-escalation issue.
+
+**[Read the disclosure archive →](CVEs.md)**
 
 ---
 
 <div align="center">
-<sub>Research portfolio · Updated 6 November 2026 · <a href="https://github.com/NSSYS">@NSSYS</a></sub>
+
+`[ Research ]` **→** `[ Validate ]` **→** `[ Disclose ]` **→** `[ Improve Security ]`
+
+<sub>Public CVE counts refer to published identifiers linked in the research index. Some advisories encompass multiple reports; attribution and researcher credits are documented with their respective vendors.</sub>
+
 </div>
