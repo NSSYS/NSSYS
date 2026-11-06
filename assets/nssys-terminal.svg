@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="NSSYS — Ali Saifeldin, Offensive Security and Vulnerability Research">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07131A"/>
+      <stop offset="55%" stop-color="#0A1119"/>
+      <stop offset="100%" stop-color="#071B1A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9EFF7A"/>
+      <stop offset="100%" stop-color="#2CDDD1"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#16404A" stroke-width="0.7" opacity="0.38"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <rect width="1200" height="360" rx="15" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="15" fill="url(#grid)"/>
+  <circle cx="1010" cy="158" r="145" fill="#20DBB5" opacity=".07" filter="url(#glow)"/>
+  <circle cx="1010" cy="158" r="116" fill="none" stroke="#1BAA92" stroke-width="1" opacity=".18"/>
+  <circle cx="1010" cy="158" r="83" fill="none" stroke="#1BAA92" stroke-width="1" opacity=".16"/>
+  <path d="M775 62H1192 M775 100H1192 M775 138H1192 M775 176H1192 M775 214H1192 M775 252H1192" stroke="#143F43" opacity=".16"/>
+  <rect x="24" y="23" width="1152" height="314" rx="10" fill="none" stroke="#245047" opacity=".75"/>
+  <path d="M24 65H1176" stroke="#245047" opacity=".85"/>
+  <circle cx="46" cy="44" r="5.4" fill="#EF6C63"/>
+  <circle cx="66" cy="44" r="5.4" fill="#F4C65A"/>
+  <circle cx="86" cy="44" r="5.4" fill="#8DEF7E"/>
+  <text x="112" y="49" fill="#91ADA9" font-family="Consolas, Menlo, monospace" font-size="15">nssys@research: ~/security</text>
+  <text x="1145" y="49" fill="#7DDDCB" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="1">RESPONSIBLE DISCLOSURE // ACTIVE</text>
+  <rect x="54" y="99" width="6" height="155" rx="3" fill="url(#accent)"/>
+  <text x="81" y="121" fill="#65D9BB" font-family="Consolas, Menlo, monospace" font-size="17" letter-spacing="2">root@NSSYS:~$ whoami</text>
+  <text x="76" y="212" fill="#F2FFF5" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="800" letter-spacing="6">NSSYS</text>
+  <rect x="445" y="157" width="13" height="57" fill="#9EFF7A"/>
+  <text x="82" y="254" fill="#C3DDD4" font-family="Consolas, Menlo, monospace" font-size="18" letter-spacing="1.4">ALI SAIFELDIN  /  OFFENSIVE SECURITY RESEARCHER</text>
+  <text x="82" y="290" fill="#7CACA7" font-family="Consolas, Menlo, monospace" font-size="15">finding the flaws hidden behind assumptions</text>
+  <path d="M771 90V281" stroke="#275B56" opacity=".85"/>
+  <text x="806" y="123" fill="#8CACAA" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="2">PUBLIC RESEARCH RECORD</text>
+  <text x="801" y="199" fill="#9EFF7A" font-family="Consolas, Menlo, monospace" font-size="76" font-weight="700">16</text>
+  <text x="914" y="195" fill="#D8EEE6" font-family="Consolas, Menlo, monospace" font-size="19" letter-spacing="1">PUBLISHED</text>
+  <text x="914" y="220" fill="#D8EEE6" font-family="Consolas, Menlo, monospace" font-size="19" letter-spacing="1">CVE RECORDS</text>
+  <rect x="804" y="239" width="312" height="1.5" fill="#2A6C60"/>
+  <text x="807" y="268" fill="#8FB7AE" font-family="Consolas, Menlo, monospace" font-size="15">13 Frappe/ERPNext  |  03 others</text>
+  <path d="M54 313H1147" stroke="url(#accent)" stroke-width="1.5" opacity=".8"/>
+  <rect x="24" y="23" width="1152" height="314" rx="10" fill="none" stroke="#67CFA9" opacity=".2"/>
+</svg>
