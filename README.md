@@ -70,6 +70,10 @@ I research vulnerabilities in real-world software, focusing on **broken trust bo
 
 </div>
 
+### `./disclosures --attribution-pending`
+
+**[CVE-2026-72910 · GHSA-qpvh-75wh-j645](https://github.com/frappe/erpnext/security/advisories/GHSA-qpvh-75wh-j645)** — ERPNext missing write-permission checks, including `pause_job_for_doc`. My report **#66692** documented this endpoint before publication; Frappe confirmed a fix and promised credit. **Reporter attribution is under review**, so this CVE is listed separately and is **not included** in the 16-CVE total. [Evidence and context →](CVEs.md#published-cve-linked-to-a-reported-issue--attribution-pending)
+
 ### `./toolkit --focus`
 
 ```text
