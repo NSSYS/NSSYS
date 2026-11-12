@@ -2,7 +2,7 @@
 
 [← Back to profile](README.md)
 
-This index tracks **17 public CVE identifiers** associated with my vulnerability research and coordinated disclosure work, with links to the underlying public CVE records and vendor advisories. Each entry should be evaluated against the official advisory for scope, affected versions, fixes and attribution.
+This index tracks **18 security disclosure entries**: **17 published CVE identifiers** linked to my vulnerability research and **one additional Frappe GitHub Security Advisory** for which I received a Reporter credit invitation on 12 November 2026. The new GHSA does not yet have a separately verified CVE identifier. Each entry should be evaluated against the official advisory for scope, affected versions, fixes and attribution.
 
 Researcher: **Ali Saifeldin / [@NSSYS](https://github.com/NSSYS)**.
 
@@ -51,11 +51,11 @@ These are **additional public security advisories**, **not included in the 17-CV
 | CRUDAdmin | [GHSA-4cwg-f726-9hfv](https://github.com/benavlabs/crudadmin/security/advisories/GHSA-4cwg-f726-9hfv) | Missing rate limiting on the login endpoint |
 | CRUDAdmin | [GHSA-fv5q-2mg9-c62x](https://github.com/benavlabs/crudadmin/security/advisories/GHSA-fv5q-2mg9-c62x) | IP address spoofing through untrusted X-Forwarded-For |
 
-## Frappe advisory — reporter credit invited
+## Additional Frappe advisory — reporter credit invited (entry 18)
 
 | Project | Advisory | Attribution evidence | CVE status |
 |---|---|---|---|
-| Frappe Framework | [GHSA-89m3-vggh-725v](https://github.com/frappe/frappe/security/advisories/GHSA-89m3-vggh-725v) | On **12 November 2026**, GitHub notified `@NSSYS` that a maintainer of `frappe/frappe` had invited this account to accept **Reporter** credit for the advisory. | Public CVE identifier **not independently verified**; excluded from the **17-CVE** tally until confirmed. |
+| Frappe Framework | [GHSA-89m3-vggh-725v](https://github.com/frappe/frappe/security/advisories/GHSA-89m3-vggh-725v) | On **12 November 2026**, GitHub notified `@NSSYS` that a maintainer of `frappe/frappe` had invited this account to accept **Reporter** credit for the advisory. | Public CVE identifier **not independently verified**; included in the **18-disclosure** portfolio but not counted among the **17 published CVE identifiers**. |
 
 > GitHub requests that the recipient review the advisory and accept or decline the credit. An invitation is authoritative evidence that maintainer-issued reporter credit was offered; public credit visibility still depends on the recipient accepting it.
 
