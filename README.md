@@ -11,8 +11,9 @@
 
 **Breaking assumptions. Finding root causes. Securing what matters.**
 
-[![CVE Portfolio](https://img.shields.io/badge/CVEs-17-9EFF7A?style=flat-square&labelColor=09131A)](CVEs.md)
-[![Frappe and ERPNext](https://img.shields.io/badge/Frappe%20%2F%20ERPNext-14-2CDDD1?style=flat-square&labelColor=09131A)](CVEs.md#frappe-framework-and-erpnext)
+[![Security disclosures](https://img.shields.io/badge/Security%20Disclosures-18-9EFF7A?style=flat-square&labelColor=09131A)](CVEs.md)
+[![Published CVEs](https://img.shields.io/badge/Published%20CVEs-17-2CDDD1?style=flat-square&labelColor=09131A)](CVEs.md)
+[![Frappe and ERPNext](https://img.shields.io/badge/Frappe%20%2F%20ERPNext-15%20entries-2CDDD1?style=flat-square&labelColor=09131A)](CVEs.md#frappe-framework-and-erpnext)
 [![OSCP](https://img.shields.io/badge/OSCP-Certified-9EFF7A?style=flat-square&labelColor=09131A)](https://www.offsec.com/)
 [![OSWE](https://img.shields.io/badge/OSWE-Certified-9EFF7A?style=flat-square&labelColor=09131A)](https://www.offsec.com/)
 [![OSEP](https://img.shields.io/badge/OSEP-Certified-9EFF7A?style=flat-square&labelColor=09131A)](https://www.offsec.com/)
@@ -48,9 +49,9 @@ I research vulnerabilities in real-world software, focusing on **broken trust bo
 
 <div align="center">
 
-| **17** published CVEs | **14** Frappe / ERPNext CVEs | **3** other-project CVEs |
+| **18** tracked disclosures | **17** published CVEs | **1** additional Frappe GHSA |
 |:---:|:---:|:---:|
-| [Complete CVE index](CVEs.md) | [Framework & ERP findings](CVEs.md#frappe-framework-and-erpnext) | [Node.js · Pyrus · pyLoad](CVEs.md#other-published-cves) |
+| [Complete research index](CVEs.md) | [17 CVE identifiers](CVEs.md#frappe-framework-and-erpnext) | [Reporter credit invitation](CVEs.md#frappe-advisory--reporter-credit-invited) |
 
 </div>
 
@@ -67,13 +68,13 @@ I research vulnerabilities in real-world software, focusing on **broken trust bo
 
 <div align="center">
 
-### [`>> EXPLORE ALL 17 CVEs & SECURITY ADVISORIES <<`](CVEs.md)
+### [`>> EXPLORE ALL 18 DISCLOSURES <<`](CVEs.md)
 
 </div>
 
 ### `./research --new-disclosure`
 
-**[GHSA-89m3-vggh-725v](https://github.com/frappe/frappe/security/advisories/GHSA-89m3-vggh-725v)** — Frappe Framework security advisory. On **12 November 2026**, its maintainer invited **@NSSYS** to accept **Reporter** credit through GitHub. **CVE assignment and public advisory details are pending verification**, so it is listed separately from the 17 confirmed CVE identifiers.
+**[GHSA-89m3-vggh-725v](https://github.com/frappe/frappe/security/advisories/GHSA-89m3-vggh-725v)** — Frappe Framework security advisory. On **12 November 2026**, its maintainer invited **@NSSYS** to accept **Reporter** credit through GitHub. **CVE assignment and public advisory details are pending verification**, so this is counted as **one additional GHSA disclosure**, separate from the 17 confirmed CVE identifiers.
 
 **[GHSA-qpvh-75wh-j645 / CVE-2026-72910](https://github.com/frappe/erpnext/security/advisories/GHSA-qpvh-75wh-j645)** — On the same date, the ERPNext maintainer sent **@NSSYS** a Reporter credit invitation for an advisory covering `pause_job_for_doc` (reported in ticket **#66692**).
 
@@ -103,6 +104,6 @@ An investigation into a Windows service security boundary and a local privilege-
 
 `[ Research ]` **→** `[ Validate ]` **→** `[ Disclose ]` **→** `[ Improve Security ]`
 
-<sub>Public CVE counts refer to published identifiers linked in the research index. Some advisories encompass multiple reports. Frappe has issued GitHub Reporter credit invitations for GHSA-qpvh-75wh-j645 and GHSA-89m3-vggh-725v; invitation acceptance and public attribution should be verified directly on GitHub.</sub>
+<sub>The headline count covers 18 tracked entries: 17 published CVE identifiers plus one additional Frappe GHSA with an invited Reporter credit; the latter's CVE ID has not been verified. Some advisories encompass multiple reports. Frappe has issued GitHub Reporter credit invitations for GHSA-qpvh-75wh-j645 and GHSA-89m3-vggh-725v; invitation acceptance and public attribution should be verified directly on GitHub.</sub>
 
 </div>
