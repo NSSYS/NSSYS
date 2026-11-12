@@ -35,11 +35,11 @@
   <text x="82" y="290" fill="#7CACA7" font-family="Consolas, Menlo, monospace" font-size="15">finding the flaws hidden behind assumptions</text>
   <path d="M771 90V281" stroke="#275B56" opacity=".85"/>
   <text x="806" y="123" fill="#8CACAA" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="2">PUBLIC RESEARCH RECORD</text>
-  <text x="801" y="199" fill="#9EFF7A" font-family="Consolas, Menlo, monospace" font-size="76" font-weight="700">16</text>
+  <text x="801" y="199" fill="#9EFF7A" font-family="Consolas, Menlo, monospace" font-size="76" font-weight="700">17</text>
   <text x="914" y="195" fill="#D8EEE6" font-family="Consolas, Menlo, monospace" font-size="19" letter-spacing="1">PUBLISHED</text>
   <text x="914" y="220" fill="#D8EEE6" font-family="Consolas, Menlo, monospace" font-size="19" letter-spacing="1">CVE RECORDS</text>
   <rect x="804" y="239" width="312" height="1.5" fill="#2A6C60"/>
-  <text x="807" y="268" fill="#8FB7AE" font-family="Consolas, Menlo, monospace" font-size="15">13 Frappe/ERPNext  |  03 others</text>
+  <text x="807" y="268" fill="#8FB7AE" font-family="Consolas, Menlo, monospace" font-size="15">14 Frappe/ERPNext  |  03 others</text>
   <path d="M54 313H1147" stroke="url(#accent)" stroke-width="1.5" opacity=".8"/>
   <rect x="24" y="23" width="1152" height="314" rx="10" fill="none" stroke="#67CFA9" opacity=".2"/>
 </svg>
