@@ -11,8 +11,8 @@
 
 **Breaking assumptions. Finding root causes. Securing what matters.**
 
-[![CVE Portfolio](https://img.shields.io/badge/CVEs-16-9EFF7A?style=flat-square&labelColor=09131A)](CVEs.md)
-[![Frappe and ERPNext](https://img.shields.io/badge/Frappe%20%2F%20ERPNext-13-2CDDD1?style=flat-square&labelColor=09131A)](CVEs.md#frappe-framework-and-erpnext)
+[![CVE Portfolio](https://img.shields.io/badge/CVEs-17-9EFF7A?style=flat-square&labelColor=09131A)](CVEs.md)
+[![Frappe and ERPNext](https://img.shields.io/badge/Frappe%20%2F%20ERPNext-14-2CDDD1?style=flat-square&labelColor=09131A)](CVEs.md#frappe-framework-and-erpnext)
 [![OSCP](https://img.shields.io/badge/OSCP-Certified-9EFF7A?style=flat-square&labelColor=09131A)](https://www.offsec.com/)
 [![OSWE](https://img.shields.io/badge/OSWE-Certified-9EFF7A?style=flat-square&labelColor=09131A)](https://www.offsec.com/)
 [![OSEP](https://img.shields.io/badge/OSEP-Certified-9EFF7A?style=flat-square&labelColor=09131A)](https://www.offsec.com/)
@@ -48,7 +48,7 @@ I research vulnerabilities in real-world software, focusing on **broken trust bo
 
 <div align="center">
 
-| **16** published CVEs | **13** Frappe / ERPNext CVEs | **3** other-project CVEs |
+| **17** published CVEs | **14** Frappe / ERPNext CVEs | **3** other-project CVEs |
 |:---:|:---:|:---:|
 | [Complete CVE index](CVEs.md) | [Framework & ERP findings](CVEs.md#frappe-framework-and-erpnext) | [Node.js · Pyrus · pyLoad](CVEs.md#other-published-cves) |
 
@@ -62,17 +62,14 @@ I research vulnerabilities in real-world software, focusing on **broken trust bo
 | **Node.js** | Proxy credential disclosure in tunnel error handling | [CVE-2026-48615](https://www.cve.org/CVERecord?id=CVE-2026-48615) |
 | **Frappe Framework** | Broken authorization in email operations | [CVE-2026-50026](https://www.cve.org/CVERecord?id=CVE-2026-50026) |
 | **ERPNext** | Unauthorized issue status modification | [CVE-2026-109669](https://www.cve.org/CVERecord?id=CVE-2026-109669) |
+| **ERPNext** | Missing write authorization in payment reconciliation (`pause_job_for_doc`); disclosure ticket #66692 | [CVE-2026-72910](https://www.cve.org/CVERecord?id=CVE-2026-72910) · [GHSA](https://github.com/frappe/erpnext/security/advisories/GHSA-qpvh-75wh-j645) |
 | **pyLoad** | Insufficient path restrictions | [CVE-2026-45306](https://www.cve.org/CVERecord?id=CVE-2026-45306) |
 
 <div align="center">
 
-### [`>> EXPLORE ALL 16 CVEs & SECURITY ADVISORIES <<`](CVEs.md)
+### [`>> EXPLORE ALL 17 CVEs & SECURITY ADVISORIES <<`](CVEs.md)
 
 </div>
-
-### `./disclosures --attribution-pending`
-
-**[CVE-2026-72910 · GHSA-qpvh-75wh-j645](https://github.com/frappe/erpnext/security/advisories/GHSA-qpvh-75wh-j645)** — ERPNext missing write-permission checks, including `pause_job_for_doc`. My report **#66692** documented this endpoint before publication; Frappe confirmed a fix and promised credit. **Reporter attribution is under review**, so this CVE is listed separately and is **not included** in the 16-CVE total. [Evidence and context →](CVEs.md#published-cve-linked-to-a-reported-issue--attribution-pending)
 
 ### `./toolkit --focus`
 
@@ -98,6 +95,6 @@ An investigation into a Windows service security boundary and a local privilege-
 
 `[ Research ]` **→** `[ Validate ]` **→** `[ Disclose ]` **→** `[ Improve Security ]`
 
-<sub>Public CVE counts refer to published identifiers linked in the research index. Some advisories encompass multiple reports; attribution and researcher credits are documented with their respective vendors.</sub>
+<sub>Public CVE counts refer to published identifiers linked in the research index. Some advisories encompass multiple reports. For CVE-2026-72910, the vendor's published GHSA lists another reporter; my separate submission of the overlapping `pause_job_for_doc` issue is documented in ticket #66692. Researcher-credit updates are being followed up with the vendor.</sub>
 
 </div>
