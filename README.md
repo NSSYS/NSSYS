@@ -71,6 +71,14 @@ I research vulnerabilities in real-world software, focusing on **broken trust bo
 
 </div>
 
+### `./research --new-disclosure`
+
+**[GHSA-89m3-vggh-725v](https://github.com/frappe/frappe/security/advisories/GHSA-89m3-vggh-725v)** — Frappe Framework security advisory. On **12 November 2026**, its maintainer invited **@NSSYS** to accept **Reporter** credit through GitHub. **CVE assignment and public advisory details are pending verification**, so it is listed separately from the 17 confirmed CVE identifiers.
+
+**[GHSA-qpvh-75wh-j645 / CVE-2026-72910](https://github.com/frappe/erpnext/security/advisories/GHSA-qpvh-75wh-j645)** — On the same date, the ERPNext maintainer sent **@NSSYS** a Reporter credit invitation for an advisory covering `pause_job_for_doc` (reported in ticket **#66692**).
+
+[**Disclosure and credit details →**](CVEs.md#frappe-advisory--reporter-credit-invited)
+
 ### `./toolkit --focus`
 
 ```text
@@ -95,6 +103,6 @@ An investigation into a Windows service security boundary and a local privilege-
 
 `[ Research ]` **→** `[ Validate ]` **→** `[ Disclose ]` **→** `[ Improve Security ]`
 
-<sub>Public CVE counts refer to published identifiers linked in the research index. Some advisories encompass multiple reports. For CVE-2026-72910, the vendor's published GHSA lists another reporter; my separate submission of the overlapping `pause_job_for_doc` issue is documented in ticket #66692. Researcher-credit updates are being followed up with the vendor.</sub>
+<sub>Public CVE counts refer to published identifiers linked in the research index. Some advisories encompass multiple reports. Frappe has issued GitHub Reporter credit invitations for GHSA-qpvh-75wh-j645 and GHSA-89m3-vggh-725v; invitation acceptance and public attribution should be verified directly on GitHub.</sub>
 
 </div>
