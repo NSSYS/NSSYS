@@ -50,10 +50,18 @@ These are **additional public security advisories**, **not included in the 16-CV
 | CRUDAdmin | [GHSA-4cwg-f726-9hfv](https://github.com/benavlabs/crudadmin/security/advisories/GHSA-4cwg-f726-9hfv) | Missing rate limiting on the login endpoint |
 | CRUDAdmin | [GHSA-fv5q-2mg9-c62x](https://github.com/benavlabs/crudadmin/security/advisories/GHSA-fv5q-2mg9-c62x) | IP address spoofing through untrusted X-Forwarded-For |
 
+## Published CVE linked to a reported issue — attribution pending
+
+The following published advisory is **not included in the 16-CVE credited research count** while researcher attribution is being verified with the vendor.
+
+| Original report | CVE / Advisory | Reported impact | Attribution status |
+|---|---|---|---|
+| ERPNext **#66692** — `pause_job_for_doc` (reported 26 April 2026) | [CVE-2026-72910](https://www.cve.org/CVERecord?id=CVE-2026-72910) · [GHSA-qpvh-75wh-j645](https://github.com/frappe/erpnext/security/advisories/GHSA-qpvh-75wh-j645) | Authenticated low-privileged users could change the status of payment reconciliation records without appropriate write authorization. The published advisory covers this function together with other ERPNext endpoints. | Frappe confirmed that the reported issue had been patched on 21 June 2026 and promised a security advisory with due credit. The public GHSA currently credits a different reporter; confirmation or addition of **@NSSYS** is pending with the vendor. |
+
+**Scope:** ERPNext versions before **15.112.0** and **16.22.0** are affected; the advisory assigns **CVSS 3.1: 7.1 (High)**. This entry documents an overlap between a submitted report and a public advisory; it does not claim exclusive discovery or confirmed reporter credit.
+
 ## Research article
 
 [CVE-2026-116596 — Local Privilege Escalation in Pyrus Sync for Windows](https://medium.com/@alisaifeldin/cve-2026-116596-local-privilege-escalation-in-pyrus-sync-for-windows-0fe2417dc8cf)
 
 ---
-
-<sub>Updated 6 November 2026. Public links may change as vendor credits and CVE records are updated.</sub>
