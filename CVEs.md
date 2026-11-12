@@ -2,11 +2,11 @@
 
 [← Back to profile](README.md)
 
-This index tracks **16 public CVE identifiers** associated with my vulnerability research and coordinated disclosure work, with links to the underlying public CVE records and vendor advisories. Each entry should be evaluated against the official advisory for scope, affected versions, fixes and attribution.
+This index tracks **17 public CVE identifiers** associated with my vulnerability research and coordinated disclosure work, with links to the underlying public CVE records and vendor advisories. Each entry should be evaluated against the official advisory for scope, affected versions, fixes and attribution.
 
 Researcher: **Ali Saifeldin / [@NSSYS](https://github.com/NSSYS)**.
 
-> Disclosure and credit note: Some advisories cover multiple reported endpoints or researchers. Inclusion here reflects related research and disclosure correspondence, not a claim of exclusive discovery. A small number of reporter-credit details are being reconciled with maintainers. I do not count unassigned or private reports as CVEs.
+> Disclosure and credit note: Some advisories cover multiple reported endpoints or researchers. Inclusion here reflects related research and disclosure correspondence, not a claim of exclusive discovery. For CVE-2026-72910, the published GHSA currently names a different reporter, while my overlapping report for `pause_job_for_doc` (#66692) was acknowledged and patched by Frappe. Public reporter-credit attribution is being reconciled with the vendor. I do not count unassigned or private reports as CVEs.
 
 ## Frappe Framework and ERPNext
 
@@ -27,6 +27,7 @@ Researcher: **Ali Saifeldin / [@NSSYS](https://github.com/NSSYS)**.
 | CVE | Description | Advisory |
 |---|---|---|
 | [CVE-2026-72907](https://www.cve.org/CVERecord?id=CVE-2026-72907) | Access control bypass in accounting master record creation | [GHSA-94v6-784v-24q5](https://github.com/frappe/erpnext/security/advisories/GHSA-94v6-784v-24q5) |
+| [CVE-2026-72910](https://www.cve.org/CVERecord?id=CVE-2026-72910) | Missing authorization in `pause_job_for_doc` affecting payment reconciliation; submitted in report **#66692**. The advisory also covers other ERPNext functions. | [GHSA-qpvh-75wh-j645](https://github.com/frappe/erpnext/security/advisories/GHSA-qpvh-75wh-j645) |
 | [CVE-2026-109667](https://www.cve.org/CVERecord?id=CVE-2026-109667) | Privilege escalation through unauthorized record creation | [GHSA-x635-wr4c-7345](https://github.com/frappe/erpnext/security/advisories/GHSA-x635-wr4c-7345) |
 | [CVE-2026-109668](https://www.cve.org/CVERecord?id=CVE-2026-109668) | Unauthorized modification of customer/party records | [GHSA-5mcx-cjjh-gc64](https://github.com/frappe/erpnext/security/advisories/GHSA-5mcx-cjjh-gc64) |
 | [CVE-2026-109669](https://www.cve.org/CVERecord?id=CVE-2026-109669) | Broken authorization in record status updates | [GHSA-6m66-w2qq-v5f8](https://github.com/frappe/erpnext/security/advisories/GHSA-6m66-w2qq-v5f8) |
@@ -43,22 +44,12 @@ Researcher: **Ali Saifeldin / [@NSSYS](https://github.com/NSSYS)**.
 
 ## Additional published GitHub advisories
 
-These are **additional public security advisories**, **not included in the 16-CVE count**.
+These are **additional public security advisories**, **not included in the 17-CVE count**.
 
 | Project | Advisory | Finding |
 |---|---|---|
 | CRUDAdmin | [GHSA-4cwg-f726-9hfv](https://github.com/benavlabs/crudadmin/security/advisories/GHSA-4cwg-f726-9hfv) | Missing rate limiting on the login endpoint |
 | CRUDAdmin | [GHSA-fv5q-2mg9-c62x](https://github.com/benavlabs/crudadmin/security/advisories/GHSA-fv5q-2mg9-c62x) | IP address spoofing through untrusted X-Forwarded-For |
-
-## Published CVE linked to a reported issue — attribution pending
-
-The following published advisory is **not included in the 16-CVE credited research count** while researcher attribution is being verified with the vendor.
-
-| Original report | CVE / Advisory | Reported impact | Attribution status |
-|---|---|---|---|
-| ERPNext **#66692** — `pause_job_for_doc` (reported 26 April 2026) | [CVE-2026-72910](https://www.cve.org/CVERecord?id=CVE-2026-72910) · [GHSA-qpvh-75wh-j645](https://github.com/frappe/erpnext/security/advisories/GHSA-qpvh-75wh-j645) | Authenticated low-privileged users could change the status of payment reconciliation records without appropriate write authorization. The published advisory covers this function together with other ERPNext endpoints. | Frappe confirmed that the reported issue had been patched on 21 June 2026 and promised a security advisory with due credit. The public GHSA currently credits a different reporter; confirmation or addition of **@NSSYS** is pending with the vendor. |
-
-**Scope:** ERPNext versions before **15.112.0** and **16.22.0** are affected; the advisory assigns **CVSS 3.1: 7.1 (High)**. This entry documents an overlap between a submitted report and a public advisory; it does not claim exclusive discovery or confirmed reporter credit.
 
 ## Research article
 
