@@ -6,7 +6,7 @@ This index tracks **17 public CVE identifiers** associated with my vulnerability
 
 Researcher: **Ali Saifeldin / [@NSSYS](https://github.com/NSSYS)**.
 
-> Disclosure and credit note: Some advisories cover multiple reported endpoints or researchers. Inclusion here reflects related research and disclosure correspondence, not a claim of exclusive discovery. For CVE-2026-72910, the published GHSA currently names a different reporter, while my overlapping report for `pause_job_for_doc` (#66692) was acknowledged and patched by Frappe. Public reporter-credit attribution is being reconciled with the vendor. I do not count unassigned or private reports as CVEs.
+> Disclosure and credit note: Some advisories cover multiple reported endpoints or researchers. Inclusion here reflects related research and disclosure correspondence, not a claim of exclusive discovery. For CVE-2026-72910, the GitHub maintainer sent an explicit Reporter credit invitation to `@NSSYS` on 12 November 2026, following my report #66692. The invitation must be accepted before public credit visibility can be confirmed. I do not count unassigned or private reports as CVEs.
 
 ## Frappe Framework and ERPNext
 
@@ -50,6 +50,18 @@ These are **additional public security advisories**, **not included in the 17-CV
 |---|---|---|
 | CRUDAdmin | [GHSA-4cwg-f726-9hfv](https://github.com/benavlabs/crudadmin/security/advisories/GHSA-4cwg-f726-9hfv) | Missing rate limiting on the login endpoint |
 | CRUDAdmin | [GHSA-fv5q-2mg9-c62x](https://github.com/benavlabs/crudadmin/security/advisories/GHSA-fv5q-2mg9-c62x) | IP address spoofing through untrusted X-Forwarded-For |
+
+## Frappe advisory — reporter credit invited
+
+| Project | Advisory | Attribution evidence | CVE status |
+|---|---|---|---|
+| Frappe Framework | [GHSA-89m3-vggh-725v](https://github.com/frappe/frappe/security/advisories/GHSA-89m3-vggh-725v) | On **12 November 2026**, GitHub notified `@NSSYS` that a maintainer of `frappe/frappe` had invited this account to accept **Reporter** credit for the advisory. | Public CVE identifier **not independently verified**; excluded from the **17-CVE** tally until confirmed. |
+
+> GitHub requests that the recipient review the advisory and accept or decline the credit. An invitation is authoritative evidence that maintainer-issued reporter credit was offered; public credit visibility still depends on the recipient accepting it.
+
+### Reporter credit invitation for CVE-2026-72910
+
+GitHub also sent `@NSSYS` a **Reporter credit invitation on 12 November 2026** for [GHSA-qpvh-75wh-j645](https://github.com/frappe/erpnext/security/advisories/GHSA-qpvh-75wh-j645), corresponding to [CVE-2026-72910](https://www.cve.org/CVERecord?id=CVE-2026-72910). This corroborates my earlier report **#66692** involving `pause_job_for_doc`; whether the public credit has been accepted and displayed has not yet been independently verified.
 
 ## Research article
 
